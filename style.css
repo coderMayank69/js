@@ -1,7 +1,98 @@
-.dark{
-    background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.light{
-    background-color: whitesmoke;
+.poster {
+    background-color: #134e32;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.header {
+    background-color: #29a871;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+h1 {
+    color: #ffcc00;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.sub-text {
+    background-color: #2a7058;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.highlight {
+    font-weight: bold;
+    color: yellow;
+}
+
+.pricing {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.free {
+    color: yellow;
+    font-size: 26px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: red;
+    margin-left: 10px;
+}
+
+.mentor {
+    margin-top: 20px;
+}
+
+.name {
+    font-size: 22px;
+    color: yellow;
+}
+
+.speaker-image img {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.brain-icons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    left: 5%;
+}
+
+.brain-icons img {
+    width: 60px;
 }
